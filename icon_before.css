@@ -1,0 +1,28 @@
+a[data-icon]::before {
+  content: url(../assets/icons/common-file-download.svg); // Fallback icon
+}
+
+a[download]::before {
+  content: url(../assets/icons/common-file-download.svg); // Fallback icon
+}
+
+a[download][href$='.pdf']::before,
+a[data-icon='pdf']::before {
+  content: url(../assets/icons/office-file-pdf-1.svg);
+}
+
+a[download][href$='.jpg']::before,
+a[data-icon='jpg']::before {
+  content: url(../assets/icons/image-file-jpg.svg);
+}
+
+a[download][href$='.png']::before,
+a[data-icon='png']::before {
+  content: url(../assets/icons/image-file-png.svg);
+}
+
+a[download][href$='.zip']::before,
+a[download][href$='.rar']::before,
+a[data-icon='zip']::before {
+  content: url(../assets/icons/zip-file-download.svg);
+}

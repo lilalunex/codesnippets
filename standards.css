@@ -1,0 +1,14 @@
+Property Ordering:
+- Display
+- Positioning
+- Box model
+- Colors and Typography
+- Other
+
+Values:
+- Font-weights in numeric values rather than weights (normal -> 400)
+- leading zero in decimal values
+- end always with semicolon
+
+Selectors:
+- lowerser & hyphens

@@ -1,0 +1,18 @@
+.next,
+.prev {
+  display: block;
+  position: absolute;
+  color: red;
+  font-size: 50px;
+  cursor: pointer;
+  top: 35%;
+}
+
+.prev {
+  transform: translateX(-150%);
+}
+
+.next {
+  right: 0px;
+  transform: translateX(150%);
+}
